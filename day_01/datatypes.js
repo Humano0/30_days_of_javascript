@@ -1,0 +1,1 @@
+console.log(typeof firstName + typeof lastName + typeof age + typeof country)
