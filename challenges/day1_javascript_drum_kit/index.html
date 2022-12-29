@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drum Kit</title>
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+            <key_text>A</key_text>
+            <span class="sound">do</span>
+        </div>
+        <div data-key="83" class="key">
+            <key_text>S</key_text>
+            <span class="sound">fa</span>
+        </div>
+        <div data-key="68" class="key">
+            <key_text>D</key_text>
+            <span class="sound">la</span>
+        </div>
+        <div data-key="70" class="key">
+            <key_text>F</key_text>
+            <span class="sound">mi</span>
+        </div>
+        <div data-key="71" class="key">
+            <key_text>G</key_text>
+            <span class="sound">re</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="sounds/do.wav"></audio>
+    <audio data-key="83" src="sounds/fa.wav"></audio>
+    <audio data-key="68" src="sounds/la.wav"></audio>
+    <audio data-key="70" src="sounds/mi.wav"></audio>
+    <audio data-key="71" src="sounds/re.wav"></audio>
+
+    <script src="./main.js"></script>
+</body>
+</html>
